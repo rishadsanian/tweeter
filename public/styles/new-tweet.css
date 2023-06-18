@@ -13,6 +13,7 @@
 
 #tweet-text {
   width: 100%;
+  height: 40px;
   margin: 0.5em 0;
   border:none;
   border-bottom: 2px solid black;
@@ -36,7 +37,7 @@
   border: none;
   color: white;
   cursor: pointer;
-  
+  border-radius: 7px;
 }
 
 .tweet-button:hover {

@@ -17,6 +17,20 @@ nav span {
   font-family: "Bungee", sans-serif;
 }
 
+i:hover {
+  transform: translateY(0);
+  animation: bounce 1s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
 /* 
   120 pixels in height
 Full width of the viewport
