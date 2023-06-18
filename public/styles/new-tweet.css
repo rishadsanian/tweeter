@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 30%;
+  width: 60%;
+  margin:2em 0;
 }
 .form-footer {
   display: flex;
@@ -13,23 +14,32 @@
 #tweet-text {
   width: 100%;
   margin: 0.5em 0;
+  border:none;
   border-bottom: 2px solid black;
   background: transparent;
   outline: none;
+  resize: none;
+  overflow: auto;
 }
 
 #tweet-text:focus {
   border-bottom: 2px solid #d5690a;
 }
 
+.form-footer{
+  font-family: 'Bungee',san-serif;
+  font-weight: bold;
+}
+
 .tweet-button {
   background-color: #4056a1;
   border: none;
   color: white;
-  font-weight: bold;
   cursor: pointer;
+  
 }
 
 .tweet-button:hover {
   background-color: #d5690a;
 }
+
