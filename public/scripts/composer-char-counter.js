@@ -1,14 +1,18 @@
-$(document).ready(function () {
+$(document).ready(function() {
   counter();
 });
 
 const counter = function () {
-  $("#tweet-text").on("input", function () {
+  $("#tweet-text").on("input", function() {
     //find text of counter
     let counterText = $(this).siblings(".form-footer").find(".counter");
+
+    //compute length
     let counterValue = 140 - this.value.length;
+
     //assign text of counter to counterValue
     $(counterText).text(counterValue);
+
     //change color of text accordingly
     if (counterValue < 0) {
       $(counterText).css({ color: "red" });
