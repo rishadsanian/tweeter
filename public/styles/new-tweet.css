@@ -1,0 +1,35 @@
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+}
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-text {
+  width: 100%;
+  margin: 0.5em 0;
+  border-bottom: 2px solid black;
+  background: transparent;
+  outline: none;
+}
+
+#tweet-text:focus {
+  border-bottom: 2px solid #d5690a;
+}
+
+.tweet-button {
+  background-color: #4056a1;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tweet-button:hover {
+  background-color: #d5690a;
+}

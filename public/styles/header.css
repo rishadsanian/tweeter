@@ -11,11 +11,13 @@ header {
   color:white; 
 }
 
-
+.user-name{
+  margin:0;
+}
 
 .avatar {
-  margin-top: 5%;
-  
+  margin-top: 2%;
+
 }
 
 /* 
