@@ -14,7 +14,7 @@ const loadTweets = function() {
     url: "/tweets",
     method: "GET",
     dataType: "json",
-    success: function (data) {
+    success: function(data) {
       renderTweets(data);
     },
   });
@@ -106,5 +106,6 @@ $(document).ready(function () {
   counter();
   loadTweets();
   asyncSubmit();
+
 });
 

@@ -54,6 +54,11 @@ article.tweets footer {
   font-weight: 550;
 }
 
+p.tweets{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .actions{
   color:#4056a1;
 }
