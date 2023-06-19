@@ -17,19 +17,25 @@ nav span {
   font-family: "Bungee", sans-serif;
 }
 
-i:hover {
+i.fa-angles-down:hover {
   transform: translateY(0);
   animation: bounce 1s infinite alternate;
   cursor: pointer;
 }
 
-@keyframes bounce {
+@keyframes bounce { 
   0% {
     transform: translateY(0);
   }
   100% {
     transform: translateY(10px);
   }
+}
+
+.hov-lift:hover{
+  font-size: larger;
+  box-shadow: 0px 0px 12px darkgrey;
+
 }
 /* 
   120 pixels in height
