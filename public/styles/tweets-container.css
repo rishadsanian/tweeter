@@ -1,0 +1,43 @@
+article.tweets {
+  border: solid 2px black;
+  border-radius: 7px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 2em;
+}
+
+article.tweets:hover{
+  box-shadow: 3px 3px 12px darkgrey;
+
+}
+
+article.tweets header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  align-items: baseline;
+}
+
+article.tweets footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 2px black;
+  padding-top: 0.5em;
+  font-size: 70%;
+}
+
+.user-handle {
+  color: lightgrey;
+  font-weight: 550;
+}
+
+.actions{
+  color:#4056a1;
+}
+.actions i:hover{
+  color:#d5690a;
+}
