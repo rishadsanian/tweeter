@@ -1,12 +1,13 @@
 /* eslint-disable no-undef */
 
-const counter = function() {
-  $("#tweet-text").on("input", function() {
+const counter = function () {
+
+  $("#tweet-text").on("input", function () {
     //find text of counter
     let counterText = $(this).siblings(".form-footer").find(".counter");
-
+    let counterValue = 140;
     //compute length
-    let counterValue = 140 - this.value.length;
+    counterValue = 140 - this.value.length;
 
     //assign text of counter to counterValue
     $(counterText).text(counterValue);
