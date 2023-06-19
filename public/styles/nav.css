@@ -23,7 +23,7 @@ i.fa-angles-down:hover {
   cursor: pointer;
 }
 
-@keyframes bounce { 
+@keyframes bounce {
   0% {
     transform: translateY(0);
   }
@@ -32,15 +32,7 @@ i.fa-angles-down:hover {
   }
 }
 
-.hov-lift:hover{
+.hov-lift:hover {
   font-size: larger;
   box-shadow: 0px 0px 12px darkgrey;
-
 }
-/* 
-  120 pixels in height
-Full width of the viewport
-#4056A1 as its default background colour
-#4056A1 as its default font colour
-<span> within the <nav> uses Bungee as its default font-family
-1.5ems  */

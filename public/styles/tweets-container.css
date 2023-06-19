@@ -1,3 +1,10 @@
+section.tweets-container{
+  width:100%; 
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
 article.tweets {
   border: solid 2px black;
   border-radius: 7px;
@@ -7,6 +14,7 @@ article.tweets {
   flex-wrap: wrap;
   width: 60%;
   margin: 2em;
+  padding-top: 0.5em;
 }
 
 article.tweets:hover{
@@ -17,10 +25,21 @@ article.tweets:hover{
 article.tweets header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   color: black;
-  align-items: baseline;
+  align-items:center;
 }
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.avt{
+  margin-right:0.5em;
+}
+
 
 article.tweets footer {
   display: flex;

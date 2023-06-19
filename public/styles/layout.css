@@ -31,11 +31,10 @@ body {
  */
 
 
- main {
+main {
   display: flex;
   flex-direction: column;
-  /*  text-align: ; */
   align-items: center;
   width: 90%;
-  /* margin: 0 140px; */
+
  }
