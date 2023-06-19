@@ -1,7 +1,4 @@
 /* eslint-disable no-undef */
-$(document).ready(function() {
-  counter();
-});
 
 const counter = function() {
   $("#tweet-text").on("input", function() {

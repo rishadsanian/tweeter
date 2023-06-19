@@ -8,12 +8,14 @@ const asyncSubmit = function () {
     const text = $(this).serialize();
     $.ajax({
       type: "POST",
-      url: "/tweets/",
+      url: "/tweets",
       data: text,
       success: function (response) {
+        loadTweets();
         console.log("Request successful!");
         console.log(response);
         console.log(this.data);
+        $("#tweet-text").val("");
       },
       error: function (xhr, status, error) {
         console.log("Request failed!");
@@ -22,7 +24,3 @@ const asyncSubmit = function () {
     });
   });
 };
-
-$(document).ready(function () {
-  asyncSubmit();
-});

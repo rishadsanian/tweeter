@@ -5,25 +5,26 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 
-////////////////////////////////////////USER NAME//////////////////////////////
+//////////////////////////////////////USER NAME//////////////////////////////
+
 const userName = "Current User";
 
-const setUserName = function(userName) {
+const setUserName = function (userName) {
   $(".user-name").text(userName);
 };
 
 ////////////////////////////////////////ALL TWEETS CONTAINER///////////////
 const loadTweets = function() {
   $.ajax({
-    url: "/tweets/",
+    url: "/tweets",
     method: "GET",
     dataType: "json",
-    success: function(data) {
+    success: function (data) {
       renderTweets(data);
     },
   });
 };
-
+////////////////////////////////////////////////////////////////////////////////
 const createTweetElement = function(data) {
   const name = data.user.name;
   const avatar = data.user.avatars;
@@ -56,7 +57,6 @@ const createTweetElement = function(data) {
  */
 
   //The above skeleton has been built with jQuery below for security advantages as mentioned in the lecture;
-
   const $article = $("<article>").addClass("tweets");
 
   //header
@@ -95,7 +95,7 @@ const createTweetElement = function(data) {
 };
 
 //adds all tweets in data into tweets-container
-const renderTweets = function(tweets) {
+const renderTweets = function (tweets) {
   const $tweetsContainer = $(".tweets-container");
   for (tweet of tweets) {
     newTweet = createTweetElement(tweet);
@@ -103,8 +103,13 @@ const renderTweets = function(tweets) {
   }
 };
 
-//load username, tweeter container, in document
-$(document).ready(function() {
+
+////////////////////////////////////////////////////////////////////////////////
+
+$(document).ready(function () {
   setUserName(userName);
+  counter();
   loadTweets();
+  asyncSubmit();
 });
+
