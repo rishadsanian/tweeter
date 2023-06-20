@@ -11,6 +11,7 @@ nav {
   width: 100%;
   text-align: center;
   position: fixed;
+  z-index: 10;
 }
 
 nav span {
@@ -21,7 +22,7 @@ i.fa-angles-down {
   color: #d5690a;
 }
 
-i.fa-angles-down:hover {
+.animate-icon:hover {
   transform: translateY(0);
   animation: bounce 0.5s infinite alternate;
   cursor: pointer;
@@ -54,3 +55,4 @@ i.fa-angles-down:hover {
     color: #d5690a;
   }
 }
+  

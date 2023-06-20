@@ -14,12 +14,22 @@ $(document).ready(function () {
 
   asyncSubmit(); // ./async-submit.js -> performs async post for tweet form submission, includes error handling and resets
 
-  //Stretch
-  showComposeButton();//ensures that compose button is hidden when page is ready
-  $(window).on("scroll", showComposeButton); //./scroll-icons.js show to new tweet text area
-  scrollToNewTweet();
+  //-----------------------compose and scrollbuttons-------------------------//
+  
+  /// ./composer.js
+
+  //Stretch 2
+  $("body").append(floatingButton); //creates the button using jquery
+  showFloatingButton(); //ensures that compose button is hidden when page is ready
+
+  //Stretch 1
 
 
+  //Event Listener for scroll
+  $(window).on("scroll", showComposeButton);
+  $(window).on("scroll", showFloatingButton);
 
+  scrollToNewTweet(); //scrolls to text area for new tweet
+  //-------------------------------------------------------------------------//
 });
 /////////////////////////////////////////////////////////////////////////////

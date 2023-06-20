@@ -36,6 +36,9 @@ header.profile {
     margin-right: 2.5em;
     margin-top: 25vh;
     border-radius: 7px;
+    position:sticky;
+    top: 25vh;
+    z-index: -1;
   }
 
   .profile:hover {
