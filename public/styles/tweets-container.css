@@ -59,7 +59,9 @@ p.tweets{
 }
 
 .actions{
+  display:flex;
   color:#4056a1;
+  gap: 0.5em;
 }
 .actions i:hover{
   color:#d5690a;

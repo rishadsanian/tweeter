@@ -38,6 +38,7 @@
   color: white;
   cursor: pointer;
   border-radius: 7px;
+  padding: 0.25em 0.5em;
 }
 
 .tweet-button:hover {

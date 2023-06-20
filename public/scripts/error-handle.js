@@ -1,17 +1,42 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 
-
 //////////////////////////////Error handling
 
-const handleErrors = function() {
+const handleErrors = function () {
   if ($(".error")) $(".error").remove();
 
-  const nullErrorMessage = $("<div>").addClass("error").text("🛑 Empty tweet!");
+  //EMPTY TWEET
+  const nullErrorMessage = $("<div>")
+    .addClass("error")
+    .css({ display: "flex", justifyContent: "space-between" })
+    .append($("<div>").addClass("error-message").text("🛑 Empty tweet!"))
+    .append(
+      $("<div>")
+        .addClass("close-btn")
+        .text("x")
+        .css({ color: "darkgrey", padding: "0 0.5em" })
+        .click(function () {
+          $(this).parent().remove();
+        })
+    );
+
+  //LENGTHY TWEET
   const lengthErrorMessage = $("<div>")
     .addClass("error")
-    .text("🛑 Tweet too long!");
+    .css({ display: "flex", justifyContent: "space-between" })
+    .append($("<div>").addClass("error-message").text("🛑 Tweet too long!"))
+    .append(
+      $("<div>")
+        .addClass("close-btn")
+        .text("x")
+        .css({ color: "darkgrey", padding: "0 0.5em" })
+        .click(function() {
+          $(this).parent().remove();
+        })
+    );
 
+  //LOGIC
   if (!$("#tweet-text").val()) {
     return $(".new-tweet").append(nullErrorMessage);
   }
