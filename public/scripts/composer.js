@@ -29,7 +29,7 @@ floatingButton.css({
 
 //shows compose new tweet button when user scrolls past new tweet text area
 
-const showComposeButton = function () {
+const showComposeButton = function() {
   // Get the position of the new-tweet element
   const tweetPosition = $(".new-tweet").offset().top;
 
@@ -49,18 +49,22 @@ const showComposeButton = function () {
 //----------------------------------------------------------------------------//
 
 const slideDownButton = function() {
+
+  $(".new-tweeet").hide();
   //on Click
   $(".fa-angles-down").click(function() {
+    $("#new-tweet").show();
     //slidesDown to text area
     $("#tweet-text").slideDown(function() {
       // Callback function after to focus on text area
+
       $("#tweet-text").focus();
     });
   });
 };
 //----------------------------------------------------------------------------//
 
-const showFloatingButton = function () {
+const showFloatingButton = function() {
   // Get the position of the new-tweet element
   const tweetPosition = $(".new-tweet").offset().top;
 
@@ -80,19 +84,19 @@ const showFloatingButton = function () {
 //auto scroll to text area for new tweets
 // Scroll to the tweet-text element//worked better than slideup/down
 
-const scrollToNewTweet = function () {
+const scrollToNewTweet = function() {
   //on Click
-  $(".fa-angles-up").click(function () {
+  $(".fa-angles-up").click(function() {
     //Start animation
     $("html, body").animate(
       {
-        //scroll - main works better than #tweet-tex
+        //scroll - main works better than #tweet-text
         scrollTop: $("<main>").offset().top,
       },
       800, // animation speed
 
       // Focus on the tweet-text element after scrolling
-      function () {
+      function() {
         $("#tweet-text").focus();
       }
     );

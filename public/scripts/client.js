@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////
 
 //When dom is ready
-$(document).ready(function () {
+$(document).ready(function() {
   setUserName(firstName, lastName, avatar); // ./user-settings.js -> loads username and avatar
 
   counter(); // ./composer-char-counter.js -> counts and displays number of characters in the form
@@ -18,13 +18,15 @@ $(document).ready(function () {
 
   /// ./composer.js
 
+  //Stretch 1
+  showComposeButton();
+  slideDownButton();
+  
   //Stretch 2
   $("body").append(floatingButton); //creates the button using jquery
   showFloatingButton(); //ensures that compose button is hidden when page is ready
 
-  //Stretch 1
-  showComposeButton();
-  slideDownButton();
+
 
   //Event Listener for scroll
   $(window).on("scroll", showComposeButton);

@@ -83,7 +83,7 @@ const createTweetElement = function(data) {
   return $article;
   //-------------------------------------------------------------------------//
 };
-//The below skeleton shows what has been built with jQuery  for security advantages and protection from malicious tweet types;
+//The below skeleton shows what has been built with jQuery for security advantages and protection from malicious tweet types;
 
 /*   <article class="tweets">
    <header>

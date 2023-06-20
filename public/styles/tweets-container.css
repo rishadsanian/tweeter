@@ -14,7 +14,6 @@ article.tweets {
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  /* 60% for desktop */
   margin: 2em;
   padding-top: 0.5em;
 }
@@ -36,14 +35,12 @@ article.tweets header {
   display: flex;
   align-items: center;
   width:auto;
-  /* 100% oor auto for desktop */
 }
 
 .avt {
   margin-right: 0.5em;
   width:1.75em;
   height:auto;
-  /* auto for desktop screens */
 }
 
 article.tweets footer {
@@ -52,14 +49,12 @@ article.tweets footer {
   border-top: solid 2px black;
   padding-top: 0.5em;
   font-size: medium;
-  /* 70% for screens */
 }
 
 .user-handle {
   color: darkgrey;
   font-weight: 550;
  font-size: large;
-  /* 100% or auto for desktop */
 }
 
 p.tweets {
@@ -71,13 +66,11 @@ p.tweets {
   color: #4056a1;
   gap: 0.8em;
   font-size: medium;
-  /* 1.em for desktop */
 }
 .actions i:hover {
   color: #d2982f;
 }
 
 .actions:hover {
-  /* Implement active on click and deactive - might require js */
   cursor: pointer;
 }

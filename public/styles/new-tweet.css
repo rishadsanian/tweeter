@@ -22,7 +22,7 @@
   resize:none;
   overflow:hidden;
   font-size: 1em;
-  /* 1em for desktop */
+
 }
 
 #tweet-text:focus {
