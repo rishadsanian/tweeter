@@ -15,8 +15,8 @@ const handleErrors = function () {
       $("<div>")
         .addClass("close-btn")
         .text("x")
-        .css({ color: "darkgrey", padding: "0 0.5em" })
-        .click(function () {
+        .css({ color: "darkgrey", padding: "0 0.5em", cursor: "pointer"})
+        .click(function() {
           $(this).parent().remove();
         })
     );
@@ -30,7 +30,7 @@ const handleErrors = function () {
       $("<div>")
         .addClass("close-btn")
         .text("x")
-        .css({ color: "darkgrey", padding: "0 0.5em" })
+        .css({ color: "darkgrey", padding: "0 0.5em",cursor: "pointer" })
         .click(function() {
           $(this).parent().remove();
         })

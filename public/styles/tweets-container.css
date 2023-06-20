@@ -1,7 +1,7 @@
-section.tweets-container{
-  width:100%; 
-  display:flex;
-  flex-direction:column;
+section.tweets-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -12,14 +12,15 @@ article.tweets {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 60%;
+  width: 100%;
+  height: auto;
+  /* 60% for desktop */
   margin: 2em;
   padding-top: 0.5em;
 }
 
-article.tweets:hover{
+article.tweets:hover {
   box-shadow: 3px 3px 12px darkgrey;
-
 }
 
 article.tweets header {
@@ -28,41 +29,55 @@ article.tweets header {
   flex-wrap: wrap;
   justify-content: space-between;
   color: black;
-  align-items:center;
-}
-
-.user{
-  display: flex;
   align-items: center;
 }
 
-.avt{
-  margin-right:0.5em;
+.user {
+  display: flex;
+  align-items: center;
+  width:1.75em;
+  /* 100% oor auto for desktop */
 }
 
+.avt {
+  margin-right: 0.5em;
+  width:1.75em;
+  height:auto;
+  /* auto for desktop screens */
+}
 
 article.tweets footer {
   display: flex;
   justify-content: space-between;
   border-top: solid 2px black;
   padding-top: 0.5em;
-  font-size: 70%;
+  font-size: medium;
+  /* 70% for screens */
 }
 
 .user-handle {
-  color: lightgrey;
+  color: darkgrey;
   font-weight: 550;
+ font-size: large;
+  /* 100% or auto for desktop */
 }
 
-p.tweets{
-  word-wrap:normal
+p.tweets {
+  word-wrap: normal;
 }
 
-.actions{
-  display:flex;
-  color:#4056a1;
-  gap: 0.5em;
+.actions {
+  display: flex;
+  color: #4056a1;
+  gap: 0.8em;
+  font-size: medium;
+  /* 1.em for desktop */
 }
-.actions i:hover{
-  color:#d5690a;
+.actions i:hover {
+  color: #d5690a;
+}
+
+.actions:hover {
+  /* Implement active on click and deactive - might require js */
+  cursor: pointer;
 }

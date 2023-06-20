@@ -16,6 +16,10 @@ nav span {
   font-family: "Bungee", sans-serif;
 }
 
+i.fa-angles-down {
+  color: #d5690a;
+}
+
 i.fa-angles-down:hover {
   transform: translateY(0);
   animation: bounce 0.5s infinite alternate;
@@ -34,4 +38,12 @@ i.fa-angles-down:hover {
 .hov-lift:hover {
   font-size: larger;
   box-shadow: 0px 0px 12px darkgrey;
+}
+
+.nav-new-tweet{
+  /* font-size: 1.5vw; desktop*/
+}
+
+#logo{
+  /* font-size: 2vw; desktop*/
 }

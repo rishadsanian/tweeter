@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 60%;
+  width: 100%; 
+  /* 60for desktop */
   margin: 2em 0;
 }
 .form-footer {
@@ -13,14 +14,16 @@
 
 #tweet-text {
   width: 100%;
-  height: 60px;
+  height: auto;
   margin: 0.5em 0;
   border: none;
   border-bottom: 2px solid black;
   background: transparent;
   outline: none;
-  resize: none;
-  overflow: hidden;
+  resize:none;
+  overflow:hidden;
+  font-size: large;
+  /* 1em for desktop */
 }
 
 #tweet-text:focus {
@@ -48,8 +51,8 @@
 .error {
   background-color: white;
   color: darkred;
-  padding: 5px;
-  border: 2px solid darkred;
+  padding: 0.1em;
+  border: 0.1em solid darkred;
   width:fit-content;
   margin :0.5em 0;
   border-radius: 7px;
