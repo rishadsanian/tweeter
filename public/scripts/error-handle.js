@@ -2,6 +2,7 @@
 /* eslint-disable no-undef */
 
 //////////////////////////////Error handling
+//--------------------------------------------------------------------------//
 
 const handleErrors = function() {
   if ($(".error")) $(".error").remove();
@@ -15,12 +16,12 @@ const handleErrors = function() {
       $("<div>")
         .addClass("close-btn")
         .text("x")
-        .css({ color: "darkgrey", padding: "0 0.5em", cursor: "pointer"})
+        .css({ color: "darkgrey", padding: "0 0.5em", cursor: "pointer" })
         .click(function() {
           $(this).parent().remove();
         })
     );
-
+  //--------------------------------------------------------------------------//
   //LENGTHY TWEET
   const lengthErrorMessage = $("<div>")
     .addClass("error")
@@ -30,11 +31,13 @@ const handleErrors = function() {
       $("<div>")
         .addClass("close-btn")
         .text("x")
-        .css({ color: "darkgrey", padding: "0 0.5em",cursor: "pointer" })
+        .css({ color: "darkgrey", padding: "0 0.5em", cursor: "pointer" })
         .click(function() {
           $(this).parent().remove();
         })
     );
+
+  //--------------------------------------------------------------------------//
 
   //LOGIC
   if (!$("#tweet-text").val()) {
