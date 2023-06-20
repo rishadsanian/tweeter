@@ -1,7 +1,10 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-//Error handling
 
-const handleErrors = function () {
+
+//////////////////////////////Error handling
+
+const handleErrors = function() {
   if ($(".error")) $(".error").remove();
 
   const nullErrorMessage = $("<div>").addClass("error").text("🛑 Empty tweet!");

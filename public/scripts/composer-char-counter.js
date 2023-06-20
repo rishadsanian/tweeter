@@ -1,8 +1,12 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 
-const counter = function () {
+/////////Counts number of characters in text area and displays it
 
-  $("#tweet-text").on("input", function () {
+
+const counter = function() {
+
+  $("#tweet-text").on("input", function() {
     //find text of counter
     let counterText = $(this).siblings(".form-footer").find(".counter");
     let counterValue = 140;

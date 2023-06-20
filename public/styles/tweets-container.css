@@ -55,8 +55,7 @@ article.tweets footer {
 }
 
 p.tweets{
-  display: flex;
-  flex-wrap: wrap;
+  word-wrap:normal
 }
 
 .actions{
