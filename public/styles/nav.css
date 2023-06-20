@@ -19,7 +19,7 @@ nav span {
 
 i.fa-angles-down:hover {
   transform: translateY(0);
-  animation: bounce 1s infinite alternate;
+  animation: bounce 0.5s infinite alternate;
   cursor: pointer;
 }
 
