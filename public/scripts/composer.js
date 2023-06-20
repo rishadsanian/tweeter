@@ -104,4 +104,4 @@ const scrollToNewTweet = function() {
 };
 //--------------------------------------------------------------------------//
 
-///////BELOW NEEDS TO BE REFACTORED WITH THE TOP FUNCTIONS//////////////////
+
