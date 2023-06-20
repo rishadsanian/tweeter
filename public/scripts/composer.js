@@ -88,6 +88,7 @@ const showFloatingButton = function() {
 const scrollToNewTweet = function() {
   //on Click
   $(".fa-angles-up").click(function() {
+    $(".form-new").show();
     //Start animation
     $("html, body").animate(
       {
