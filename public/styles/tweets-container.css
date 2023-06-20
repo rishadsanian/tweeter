@@ -25,11 +25,10 @@ article.tweets:hover {
 article.tweets header {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   color: black;
   align-items: center;
-  margin: 0 0;
+  margin: 00 0;
 }
 
 .user {
