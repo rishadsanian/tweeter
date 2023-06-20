@@ -3,7 +3,7 @@
 
 //////////////////////////////Error handling
 
-const handleErrors = function () {
+const handleErrors = function() {
   if ($(".error")) $(".error").remove();
 
   //EMPTY TWEET

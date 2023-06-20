@@ -31,10 +31,14 @@ header.profile {
 
 @media only screen and (min-width: 768px) {
   header.profile {
-    width: 25vw;
+    width: 28rem;
     height: auto;
     margin-right: 2.5em;
     margin-top: 25vh;
-    
+    border-radius: 7px;
+  }
+
+  .profile:hover {
+    box-shadow: 3px 3px 20px darkgrey;
   }
 }
