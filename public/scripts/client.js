@@ -19,6 +19,7 @@ $(document).ready(function() {
   /// ./composer.js
 
   //Stretch 1
+  $(".new-tweeet").hide();
   showComposeButton();
   slideDownButton();
   

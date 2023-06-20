@@ -50,12 +50,13 @@ const showComposeButton = function() {
 
 const slideDownButton = function() {
 
-  $(".new-tweeet").hide();
+  $(".form-new").hide();
+  $(".tweets-container").slideDown();
   //on Click
   $(".fa-angles-down").click(function() {
-    $("#new-tweet").show();
+    $(".form-new").toggle();
     //slidesDown to text area
-    $("#tweet-text").slideDown(function() {
+    $("#tweet-text").slideDown(800,function() {
       // Callback function after to focus on text area
 
       $("#tweet-text").focus();
