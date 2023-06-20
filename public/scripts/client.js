@@ -15,7 +15,7 @@ $(document).ready(function () {
   asyncSubmit(); // ./async-submit.js -> performs async post for tweet form submission, includes error handling and resets
 
   //-----------------------compose and scrollbuttons-------------------------//
-  
+
   /// ./composer.js
 
   //Stretch 2
@@ -23,7 +23,8 @@ $(document).ready(function () {
   showFloatingButton(); //ensures that compose button is hidden when page is ready
 
   //Stretch 1
-
+  showComposeButton();
+  slideDownButton();
 
   //Event Listener for scroll
   $(window).on("scroll", showComposeButton);

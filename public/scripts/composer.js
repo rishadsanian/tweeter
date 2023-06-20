@@ -39,14 +39,26 @@ const showComposeButton = function () {
   // Check if scrolled past
   if (scrollPosition > tweetPosition) {
     // Show the target element
-    $(".compose-icon").show();
+    $(".compose-icon").hide();
   } else {
     // Hide the target element
-    $(".compose-icon").hide();
+    $(".compose-icon").show();
   }
 };
 
-//------------------------------------------------------------------------------//
+//----------------------------------------------------------------------------//
+
+const slideDownButton = function() {
+  //on Click
+  $(".fa-angles-down").click(function() {
+    //slidesDown to text area
+    $("#tweet-text").slideDown(function() {
+      // Callback function after to focus on text area
+      $("#tweet-text").focus();
+    });
+  });
+};
+//----------------------------------------------------------------------------//
 
 const showFloatingButton = function () {
   // Get the position of the new-tweet element
@@ -70,7 +82,7 @@ const showFloatingButton = function () {
 
 const scrollToNewTweet = function () {
   //on Click
-  $(".animate-icon").click(function () {
+  $(".fa-angles-up").click(function () {
     //Start animation
     $("html, body").animate(
       {
@@ -80,7 +92,7 @@ const scrollToNewTweet = function () {
       800, // animation speed
 
       // Focus on the tweet-text element after scrolling
-      function() {
+      function () {
         $("#tweet-text").focus();
       }
     );
