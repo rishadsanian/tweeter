@@ -4,8 +4,7 @@
   justify-content: center;
   text-align: center;
   width: 100%; 
-  /* 60for desktop */
-  margin: 2em 0;
+  margin: 3em 0;
 }
 .form-footer {
   display: flex;
@@ -22,7 +21,7 @@
   outline: none;
   resize:none;
   overflow:hidden;
-  font-size: large;
+  font-size: 1em;
   /* 1em for desktop */
 }
 

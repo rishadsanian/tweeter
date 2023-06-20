@@ -6,7 +6,7 @@
 
 //When dom is ready
 $(document).ready(function() {
-  setUserName(userName,avatar); // ./user-settings.js -> loads username and avatar
+  setUserName(firstName,lastName,avatar); // ./user-settings.js -> loads username and avatar
   
   counter(); // ./composer-char-counter.js -> counts and displays number of characters in the form
 

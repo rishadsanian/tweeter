@@ -4,11 +4,12 @@
 
 //Sets username and Avatar
 
-const userName = "Current User";
+const firstName = "Current";
+const lastName = "User";
 const avatar = "/images/profile-hex.png";
 
-const setUserName = function(userName, avatar) {
-  $(".user-name").text(userName);
+const setUserName = function(firstName, lastName, avatar) {
+  $(".user-name").html(`<p><strong>${firstName} </strong>${lastName}</p>`);
   $(".avatar img").attr("src", avatar);
 };
 

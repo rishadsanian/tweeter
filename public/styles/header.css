@@ -5,10 +5,10 @@ header.profile {
   align-items: center;
   text-align: center;
   margin-top: 120px;
-  padding-top:1em;
+  padding-top: 1em;
   height: 40vh;
   width: 100%;
-  background-color: rgba(213, 105, 10, 0.72);
+  background-color: #d2982f;
 
   background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
   color: white;
@@ -17,15 +17,24 @@ header.profile {
 .avatar img {
   margin: 0 auto;
   margin-top: 5%;
-  padding-top:2%;
-  width:25vh;
-  height:auto;
-
+  padding-top: 2%;
+  width: 25vh;
+  height: auto;
 }
 
-.user-name{
-  margin-top:5%;
-  font-size: larger;
-  width:100%;
-  height:auto
+.user-name {
+  margin-top: 5%;
+  font-size: 1.2em;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  header.profile {
+    width: 25vw;
+    height: auto;
+    margin-right: 2.5em;
+    margin-top: 25vh;
+    
+  }
 }
