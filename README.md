@@ -21,23 +21,25 @@ This project has been completed by [Rishad Alam](https://github.com/rishadsanian
 <br>
 
 ## Images
-![Alt text](<docs/Screenshot 2023-06-22 222503 desktop.png>)
+
+![Screenshot of Large screen interface](<https://github.com/rishadsanian/tweeter/blob/master/docs/Screenshot%202023-06-22%20222503%20desktop.png?raw=true>)
 <br>
 
-![Alt text](<docs/Screenshot mobile.png>)
+![Screenshot of Mobile interface](<https://github.com/rishadsanian/tweeter/blob/master/docs/Screenshot%20mobile.png?raw=true>)
 <br>
 
-![Alt text](<docs/Screenshot error.png>)
+![Screenshot of empty tweet submission](<https://github.com/rishadsanian/tweeter/blob/master/docs/Screenshot%20error.png?raw=true>)
 <br>
 
-![Alt text](<docs/Screenshot large screen.png>)
+![Screenshots of all tweets Mobile interface](<https://github.com/rishadsanian/tweeter/blob/master/docs/Screenshot%20mobile%20tweets.png?raw=true>)
 <br>
 
-![Alt text](<docs/Screenshot mobile errormessage 2.png>)
+![Screenshot of Desktop interface ](https://github.com/rishadsanian/tweeter/blob/master/docs/Screenshot%20large%20screen.png?raw=true)
 <br>
 
-![Alt text](<docs/Screenshot mobile tweets.png>)
+![Screenshot of Mobile interface too many characters alert](<https://github.com/rishadsanian/tweeter/blob/master/docs/Screenshot%20mobile%20errormessage%202.png?raw=true>)
 <br>
+
 
 <br>
 <br>
