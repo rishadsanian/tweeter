@@ -16,6 +16,7 @@ article.tweets {
   height: auto;
   margin: 2em;
   padding-top: 0.5em;
+  word-break: break-all;
 }
 
 article.tweets:hover {
@@ -34,14 +35,14 @@ article.tweets header {
 .user {
   display: flex;
   align-items: center;
-  width:auto;
+  width: auto;
   font-size: 0.9em;
 }
 
 .avt {
   margin-right: 0.5em;
-  width:1.75em;
-  height:auto;
+  width: 1.75em;
+  height: auto;
 }
 
 article.tweets footer {
@@ -55,12 +56,14 @@ article.tweets footer {
 .user-handle {
   color: darkgrey;
   font-weight: 550;
- font-size: large;
+  font-size: large;
 }
 
 p.tweets {
   word-wrap: normal;
+
 }
+
 
 .actions {
   display: flex;
