@@ -13,6 +13,8 @@ This project has been completed by [Rishad Alam](https://github.com/rishadsanian
 
 The project required more font-end work with some server-side edits.
 
+<br>
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -21,13 +23,15 @@ The project required more font-end work with some server-side edits.
 - [Dependencies](#dependencies)
 - [Future Features](#future-features)
 
+<br>
+
 ## Features
 -  Responsive, interactive and dynamic application able to handle different screen sizes
 - Asycncrounously loading of content without refreshing the browser
 - Custom CSS Microinteractions for enchanced UX including animated scrolling and floating buttons, character counter, error handling modules, animated buttons
 - HTTP Server that handles requests from the browser (client)
 
-<br>
+
 <br>
 
 ## Images
