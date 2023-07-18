@@ -11,6 +11,16 @@ Using a forked/cloned starter server repo, Tweeter has been constructed using HT
 
 This project has been completed by [Rishad Alam](https://github.com/rishadsanian) for the [Lighthouse Labs](https://www.lighthouselabs.ca/) Web Development Bootcamp.
 
+The project required more font-end work with some server-side edits.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Images](#images)
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Future Features](#future-features)
+
 ## Features
 -  Responsive, interactive and dynamic application able to handle different screen sizes
 - Asycncrounously loading of content without refreshing the browser
